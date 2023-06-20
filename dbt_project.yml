@@ -14,6 +14,14 @@ vars:
     ad_reporting__keyword_passthrough_metrics: []
     ad_reporting__search_passthrough_metrics: []
 
+    ad_reporting__amazon_ads_enabled: False 
+    ad_reporting__apple_search_ads_enabled: False 
+    ad_reporting__pinterest_ads_enabled: False 
+    ad_reporting__microsoft_ads_enabled: False 
+    ad_reporting__snapchat_ads_enabled: False 
+    ad_reporting__tiktok_ads_enabled: False 
+    ad_reporting__reddit_ads_enabled: False 
+
 models:
   ad_reporting:
     +materialized: table 
