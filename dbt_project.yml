@@ -20,7 +20,8 @@ vars:
     ad_reporting__microsoft_ads_enabled: False 
     ad_reporting__snapchat_ads_enabled: False 
     ad_reporting__tiktok_ads_enabled: False 
-    ad_reporting__reddit_ads_enabled: False 
+    ad_reporting__reddit_ads_enabled: False
+    twitter_ads__using_keywords: False
 
 models:
   ad_reporting:
